@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:background="#f10725"
+        android:textColor="#ffffff"
+        android:text="Top Content here"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#959492"
+        android:textColor="#ffffff"
+        android:text="Botton Content here"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_toLeftOf="@+id/textview"
+        android:layout_centerVertical="true"
+        android:background="#29e237"
+        android:textColor="#ffffff"
+        android:text="First"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textview"
+        android:layout_toLeftOf="@+id/second"
+        android:layout_centerVertical="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/second"
+        android:layout_centerInParent="true"
+        android:background="#3585ed"
+        android:textColor="#ffffff"
+        android:text="Second"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textviewThree"
+        android:layout_toRightOf="@+id/second"
+        android:layout_centerVertical="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:layout_toRightOf="@id/textviewThree"
+        android:layout_centerVertical="true"
+        android:background="#d1a636"
+        android:textColor="#ffffff"
+        android:text="Three"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
